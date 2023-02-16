@@ -2,10 +2,10 @@ print("введите  значения коэффициентов квадра�
 a, b, c = float(input()), float(input()), float(input())
 "ax^2 + bx + c"
 d = b**2 - 4*a*c
-if a == 0 and b == 0 and c != 0:
-    print('корней нет')
-elif a == 0 and b == 0 and c == 0:  
+if a == 0 and b == 0 and c == 0:  
     print('х любое число')
+elif a == 0 and b == 0 and c != 0:
+    print('корней нет')
 elif a == 0 and b !=0 and c !=0:
     print(-c/b)
 elif d > 0:
